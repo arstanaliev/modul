@@ -1,0 +1,305 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+body {
+  background: #2F91BB;
+}
+
+#header .header {
+  padding: 6% 0;
+}
+#header .header-_text {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-size: 75px;
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  font-weight: 100;
+}
+#header .header-_text nav {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-size: 75px;
+  color: #FFFFFF;
+  font-weight: 900;
+  padding-left: 1%;
+}
+#header .header-_line {
+  width: 5%;
+  border: 6px solid #FFFFFF;
+  background: #FFFFFF;
+  margin-top: 4%;
+}
+
+#hero .hero {
+  padding-bottom: 26%;
+}
+#hero .hero-_figma {
+  position: absolute;
+  width: 57%;
+  padding: 2% 0 0 0;
+}
+#hero .hero h2 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  color: #FFFFFF;
+}
+#hero .hero p {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  color: #FFFFFF;
+  padding: 2% 0 0 5%;
+}
+#hero .hero p a {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+#btrend {
+  background: #FFFFFF;
+}
+#btrend .btrend {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #FFFFFF 100%);
+}
+#btrend .btrend-_image {
+  text-align: right;
+}
+#btrend .btrend-_image img {
+  padding: 10% 0 3% 0;
+  position: relative;
+  width: 46%;
+}
+#btrend .btrend-_number {
+  width: 17%;
+  padding: 4% 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 62%;
+}
+#btrend .btrend-_number div {
+  background: #2F91BB;
+  padding: 8%;
+}
+#btrend .btrend-_number div h1 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  color: #FFFFFF;
+  position: relative;
+}
+#btrend .btrend-_number hr {
+  width: 21%;
+  border: 0.5px solid #2F91BB;
+  transform: rotate(-43.89deg);
+  position: absolute;
+  background: #2F91BB;
+}
+
+#amazing {
+  background: #2F91BB;
+  position: relative;
+}
+#amazing .amazing h1 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  color: #FFFFFF;
+  font-weight: 900;
+  padding: 2% 0 2% 67%;
+}
+#amazing .amazing h1 nav {
+  font-weight: 100;
+}
+#amazing .amazing div {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin: 0 auto;
+}
+#amazing .amazing div img {
+  width: 95%;
+  padding: 3% 0;
+  margin: 0 auto;
+}
+
+#modern {
+  position: relative;
+  background: #2F91BB;
+}
+#modern .modern {
+  padding: 5% 0;
+}
+#modern .modern img {
+  width: 23%;
+  padding: 0 0 2% 0;
+}
+#modern .modern-_figma {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-radius: 10px;
+  padding: 2%;
+}
+#modern .modern-_figma a {
+  display: flex;
+  flex-direction: column;
+}
+#modern .modern-_figma a img {
+  width: 100%;
+  padding: 0 0 5% 0;
+}
+
+#tracker .tracker {
+  padding: 5% 0;
+}
+#tracker .tracker h2 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  color: #FFFFFF;
+}
+#tracker .tracker p {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  color: #FFFFFF;
+  padding: 2% 0 0 5%;
+}
+#tracker .tracker p a {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+#tracker .tracker-_logo {
+  width: 18%;
+  padding: 5% 5% 0 5%;
+}
+#tracker .tracker-_images {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 88%;
+}
+#tracker .tracker-_images-_img {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#tracker .tracker-_images-_image1 {
+  padding: 0 0 20% 0;
+  width: 30%;
+}
+#tracker .tracker-_images-_image2 {
+  padding: 12% 0 10% 0;
+  width: 32%;
+}
+#tracker .tracker-_images-_image3 {
+  padding: 31% 0 0 0;
+  width: 30%;
+}
+
+#trackerFunctions {
+  background: #FFFFFF;
+}
+#trackerFunctions .trackerFunctions {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  padding: 5% 0;
+}
+#trackerFunctions .trackerFunctions img {
+  width: 90%;
+  margin: 0 auto;
+  padding: 5% 0;
+}
+
+#task .task {
+  padding: 10% 0;
+}
+#task .task h2 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  color: #FFFFFF;
+}
+#task .task p {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  color: #FFFFFF;
+  padding: 2% 0 0 5%;
+}
+#task .task p a {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+#task .task-_images-_image {
+  width: 85%;
+  padding: 5% 0;
+}
+#task .task-_images-_img {
+  position: absolute;
+  width: 26%;
+  left: 67%;
+  margin-top: 20%;
+}
+
+#taskFunctions .taskFunctions {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+#taskFunctions .taskFunctions img {
+  width: 95%;
+  padding: 3% 0;
+}
+
+#footer .footer {
+  padding: 7% 0 12% 0;
+}
+#footer .footer h1 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  color: #FFFFFF;
+}
+#footer .footer p {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  color: #FFFFFF;
+  font-weight: 400;
+  padding: 2% 0 0 7%;
+}
+
+/*# sourceMappingURL=style.css.map */

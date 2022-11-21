@@ -1,0 +1,252 @@
+@import "reset";
+@import "mixin";
+
+#header {
+  .header {
+    padding: 6% 0;
+
+    &-_text {
+      @include headerText;
+      @include flex;
+      font-weight: 100;
+
+      nav {
+        @include headerText;
+        font-weight: 900;
+        padding-left: 1%;
+      }
+    }
+
+    &-_line {
+      @include line;
+      margin-top: 4%;
+    }
+  }
+}
+#hero {
+  .hero {
+    padding-bottom: 26%;
+    &-_figma {
+      position: absolute;
+      width: 57%;
+      padding: 2% 0 0 0;
+    }
+
+    h2 {
+      @include text;
+    }
+
+    p {
+      @include P;
+      padding: 2% 0 0 5%;
+      a {
+        @include P;
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+#btrend {
+  background: #FFFFFF;
+
+  .btrend {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #FFFFFF 100%);
+
+
+    &-_image {
+      text-align: right;
+
+      img {
+        padding: 10% 0 3% 0;
+        position: relative;
+        width: 46%;
+      }
+
+    }
+
+    &-_number {
+      @include numbers;
+
+      div {
+        background: #2F91BB;
+        padding: 8%;
+
+        h1 {
+          @include number;
+          position: relative;
+        }
+      }
+
+      hr {
+        @include hr;
+      }
+    }
+  }
+}
+
+#amazing {
+  background: #2F91BB;
+  position: relative;
+
+  .amazing {
+    h1 {
+      @include text;
+      font-weight: 900;
+      padding: 2% 0 2% 67%;
+
+      nav {
+        font-weight: 100;
+      }
+    }
+
+    div {
+      @include grid;
+
+      img {
+        @include img;
+      }
+    }
+  }
+}
+
+#modern {
+  position: relative;
+  background: #2F91BB;
+
+  .modern {
+    padding: 5% 0;
+
+    img {
+      width: 23%;
+      padding: 0 0 2% 0;
+    }
+
+    &-_figma {
+      @include between;
+      border: 1px solid rgba(255, 255, 255, 0.4);
+      border-radius: 10px;
+      padding: 2%;
+
+      a {
+        display: flex;
+        flex-direction: column;
+
+        img {
+          width: 100%;
+          padding: 0 0 5% 0;
+        }
+      }
+    }
+
+  }
+}
+
+#tracker {
+  .tracker {
+    padding: 5% 0;
+    h2 {
+      @include text;
+    }
+
+    p {
+      @include P;
+      padding: 2% 0 0 5%;
+
+      a {
+        @include P;
+        text-decoration: none;
+      }
+    }
+
+    &-_logo {
+      width: 18%;
+      padding: 5% 5% 0 5%;
+    }
+    &-_images{
+      @include between;
+      width: 88%;
+      &-_img{
+        @include between;
+      }
+      &-_image1{
+        padding: 0 0 20% 0;
+        width: 30%;
+      }
+      &-_image2{
+        padding: 12% 0 10% 0;
+        width: 32%;
+      }
+      &-_image3{
+        padding: 31% 0 0 0;
+        width: 30%;
+      }
+    }
+  }
+}
+#trackerFunctions{
+  background: #FFFFFF;
+  .trackerFunctions{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    padding: 5% 0;
+    img{
+      width: 90%;
+      margin: 0 auto;
+      padding: 5% 0;
+    }
+  }
+}
+#task{
+  .task{
+    padding: 10% 0;
+    h2 {
+      @include text;
+    }
+
+    p {
+      @include P;
+      padding: 2% 0 0 5%;
+
+      a {
+        @include P;
+        text-decoration: none;
+      }
+    }
+    &-_images{
+      &-_image{
+      width: 85%;
+        padding: 5% 0;
+      }
+      &-_img{
+        position: absolute;
+        width: 26%;
+        left: 67%;
+        margin-top: 20%;
+      }
+    }
+  }
+}
+#taskFunctions{
+  .taskFunctions{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    img{
+      width: 95%;
+      padding: 3% 0;
+    }
+  }
+}
+#footer{
+  .footer{
+    padding: 7% 0 12% 0;
+    h1{
+      @include text;
+    }
+    p{
+      @include P;
+      font-weight: 400;
+      padding: 2% 0 0 7%;
+    }
+  }
+}

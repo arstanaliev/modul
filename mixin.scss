@@ -1,0 +1,66 @@
+@mixin headerText{
+  font-family: 'Poppins',sans-serif;
+  font-style: normal;
+  font-size: 75px;
+  color: #FFFFFF;
+}
+@mixin flex{
+  display: flex;
+  align-items: center;
+}
+@mixin line{
+  width: 5%;
+  border: 6px solid #FFFFFF;
+  background: #FFFFFF;
+}
+@mixin text{
+  font-family: 'Poppins',sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  color: #FFFFFF;
+}
+@mixin P{
+  font-family: 'Roboto',sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  color: #FFFFFF;
+}
+@mixin number{
+  font-family: 'Poppins',sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  color: #FFFFFF;
+}
+@mixin hr{
+  width: 21%;
+  border: 0.5px solid #2F91BB;
+  transform: rotate(-43.89deg);
+  position: absolute;
+  background: #2F91BB;
+}
+@mixin numbers{
+  width: 17%;
+  padding: 4% 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 62%;
+}
+@mixin grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin: 0 auto;
+}
+@mixin img{
+  width: 95%;
+  padding: 3% 0;
+  margin: 0 auto;
+}
+@mixin between{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

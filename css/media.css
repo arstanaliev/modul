@@ -1,0 +1,284 @@
+/*1140*/
+/*1024*/
+/*992*/
+/*768*/
+/*576*/
+/*450*/
+/*414*/
+/*400*/
+/*380*/
+/*375*/
+/*360*/
+/*320*/
+@media (max-width: 1140px) {
+  #hero .hero-_figma {
+    padding: 3% 0 0 0;
+  }
+  #btrend .btrend-_number div h1 {
+    font-size: 43px;
+  }
+}
+@media (max-width: 992px) {
+  #btrend .btrend-_number div h1 {
+    font-size: 42px;
+  }
+  #tracker .tracker p {
+    font-size: 10px;
+  }
+  #tracker .tracker p a {
+    font-size: 10px;
+  }
+  #tracker .tracker h2 {
+    font-size: 28px;
+  }
+  #hero .hero p {
+    font-size: 10px;
+  }
+  #hero .hero p a {
+    font-size: 10px;
+  }
+  #hero .hero h2 {
+    font-size: 28px;
+  }
+  #header .header-_text nav {
+    font-size: 60px;
+  }
+  #header .header-_text {
+    font-size: 60px;
+  }
+  #header .header-_line {
+    width: 5%;
+    border: 4px solid #FFFFFF;
+  }
+  #amazing .amazing h1 {
+    font-size: 25px;
+    line-height: 35px;
+  }
+  #task .task p {
+    font-size: 10px;
+  }
+  #task .task p a {
+    font-size: 10px;
+  }
+  #task .task h2 {
+    font-size: 28px;
+  }
+  #footer .footer h1 {
+    font-size: 25px;
+  }
+  #footer .footer p {
+    font-size: 10px;
+  }
+}
+@media (max-width: 576px) {
+  #taskFunctions .taskFunctions {
+    grid-template-columns: 1fr 1fr;
+  }
+  #trackerFunctions .trackerFunctions {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  #amazing .amazing div {
+    grid-template-columns: 1fr 1fr;
+  }
+  #header .header-_text {
+    font-size: 40px;
+  }
+  #header .header-_text nav {
+    font-size: 40px;
+  }
+  #tracker .tracker p {
+    font-size: 7px;
+  }
+  #tracker .tracker p a {
+    font-size: 7px;
+  }
+  #tracker .tracker h2 {
+    font-size: 23px;
+  }
+  #hero .hero p {
+    font-size: 7px;
+  }
+  #hero .hero p a {
+    font-size: 7px;
+  }
+  #hero .hero h2 {
+    font-size: 23px;
+  }
+  #task .task p {
+    font-size: 7px;
+  }
+  #task .task p a {
+    font-size: 7px;
+  }
+  #task .task h2 {
+    font-size: 23px;
+  }
+  #footer .footer h1 {
+    font-size: 23px;
+  }
+  #footer .footer p {
+    font-size: 7px;
+  }
+  #amazing .amazing h1 {
+    font-size: 15px;
+    line-height: 20px;
+  }
+  #btrend .btrend-_number div h1 {
+    font-size: 23px;
+  }
+  #header .header-_line {
+    border: 3px solid #FFFFFF;
+  }
+}
+@media (max-width: 451px) {
+  #header .header-_text {
+    font-size: 25px;
+  }
+  #header .header-_text nav {
+    font-size: 25px;
+  }
+  #tracker .tracker p {
+    font-size: 5px;
+  }
+  #tracker .tracker p a {
+    font-size: 5px;
+  }
+  #tracker .tracker h2 {
+    font-size: 19px;
+  }
+  #hero .hero p {
+    font-size: 5px;
+  }
+  #hero .hero p a {
+    font-size: 5px;
+  }
+  #hero .hero h2 {
+    font-size: 19px;
+  }
+  #task .task p {
+    font-size: 5px;
+  }
+  #task .task p a {
+    font-size: 5px;
+  }
+  #task .task h2 {
+    font-size: 19px;
+  }
+  #footer .footer h1 {
+    font-size: 19px;
+  }
+  #footer .footer p {
+    font-size: 5px;
+  }
+  #amazing .amazing h1 {
+    font-size: 10px;
+    line-height: 12px;
+  }
+  #header .header-_line {
+    border: 2px solid #FFFFFF;
+  }
+  #btrend .btrend-_number div h1 {
+    font-size: 15px;
+  }
+  #btrend .btrend-_number hr {
+    border: 0.1px solid #2F91BB;
+  }
+}
+@media (max-width: 415px) {
+  #header .header-_text {
+    font-size: 20px;
+  }
+  #header .header-_text nav {
+    font-size: 20px;
+  }
+  #tracker .tracker p {
+    font-size: 4px;
+  }
+  #tracker .tracker p a {
+    font-size: 4px;
+  }
+  #tracker .tracker h2 {
+    font-size: 12px;
+  }
+  #hero .hero p {
+    font-size: 4px;
+  }
+  #hero .hero p a {
+    font-size: 4px;
+  }
+  #hero .hero h2 {
+    font-size: 12px;
+  }
+  #task .task p {
+    font-size: 4px;
+  }
+  #task .task p a {
+    font-size: 4px;
+  }
+  #task .task h2 {
+    font-size: 12px;
+  }
+  #footer .footer h1 {
+    font-size: 12px;
+  }
+  #footer .footer p {
+    font-size: 4px;
+  }
+  #amazing .amazing h1 {
+    font-size: 10px;
+    line-height: 12px;
+  }
+}
+@media (max-width: 360px) {
+  #header .header-_text {
+    font-size: 15px;
+  }
+  #header .header-_text nav {
+    font-size: 15px;
+  }
+  #tracker .tracker p {
+    font-size: 3px;
+  }
+  #tracker .tracker p a {
+    font-size: 3px;
+  }
+  #tracker .tracker h2 {
+    font-size: 9px;
+  }
+  #hero .hero p {
+    font-size: 3px;
+  }
+  #hero .hero p a {
+    font-size: 3px;
+  }
+  #hero .hero h2 {
+    font-size: 9px;
+  }
+  #task .task p {
+    font-size: 3px;
+  }
+  #task .task p a {
+    font-size: 3px;
+  }
+  #task .task h2 {
+    font-size: 9px;
+  }
+  #footer .footer h1 {
+    font-size: 9px;
+  }
+  #footer .footer p {
+    font-size: 3px;
+  }
+  #amazing .amazing h1 {
+    font-size: 8px;
+    line-height: 10px;
+  }
+  #header .header-_line {
+    border: 1px solid #FFFFFF;
+  }
+  #btrend .btrend-_number div h1 {
+    font-size: 11px;
+  }
+}
+
+/*# sourceMappingURL=media.css.map */
