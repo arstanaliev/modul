@@ -18,6 +18,7 @@
     font-size: 43px;
   }
 }
+
 @media (max-width: 992px) {
   #btrend .btrend-_number div h1 {
     font-size: 42px;
@@ -70,6 +71,7 @@
     font-size: 10px;
   }
 }
+
 @media (max-width: 576px) {
   #taskFunctions .taskFunctions {
     grid-template-columns: 1fr 1fr;
@@ -130,6 +132,7 @@
     border: 3px solid #FFFFFF;
   }
 }
+
 @media (max-width: 451px) {
   #header .header-_text {
     font-size: 25px;
@@ -184,6 +187,7 @@
     border: 0.1px solid #2F91BB;
   }
 }
+
 @media (max-width: 415px) {
   #header .header-_text {
     font-size: 20px;
@@ -229,6 +233,7 @@
     line-height: 12px;
   }
 }
+
 @media (max-width: 360px) {
   #header .header-_text {
     font-size: 15px;
